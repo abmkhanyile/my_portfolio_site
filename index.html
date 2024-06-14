@@ -177,7 +177,7 @@
 								</span>
 							</h1>
 							<p class="color_white mb_30">Experienced Freelance Software Developer with over 20 years of expertise in the industry. Holding a Bachelor's degree in Computer Science and Information Systems.</p>
-							<a class="btn btn-default" href="#">Contact Me</a>
+							<a class="btn btn-default" href="javascript:void(0)" data-toggle="modal" data-target="#contactInfoModal">Contact Me</a>
 							<!-- Put this code anywhere in the body of your page where you want the badge to show up. -->						
 						</div>					                    
 				
@@ -694,7 +694,7 @@
 		    						<li>
 		    							<div class="contact_text">
 		    								<h6 class="font-weight-bold color_white">Website</h6>
-		    								<span class="color_lightgray">www.ayanda-khanyile.co.za</span>
+		    								<span class="color_lightgray">www.software-engineer.co.za</span>
 		    							</div>
 		    						</li>
 		    					</ul>
@@ -710,7 +710,7 @@
 					        </div>
 						</div>
 						<div class="col-md-8 col-lg-8">
-							<form class="form contact_message wow animated fadeInRight" id="contact-form" action="https://formsubmit.co/ayatech.co@gmail.com" method="post">
+							<form name="contact" class="form contact_message wow animated fadeInRight" id="contact-form" action="https://formsubmit.co/ayatech.co@gmail.com" method="post" netlify>
 								<div class="row">
 									<div class="col-md-6 col-lg-6">
 										<div class="form-group">
@@ -768,6 +768,29 @@
 	===================================================-->
 	</div>
 </div>
+<!-- start of contact info modal -->
+<!-- Button trigger modal -->
+ 
+  <!-- Modal -->
+  <div class="modal fade" id="contactInfoModal" tabindex="-1" role="dialog" aria-labelledby="contactInfoModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+			<!-- <h5 class="modal-title" id="exampleModalLabel" style="margin: auto;">Contact Details</h5> -->
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		  </div>
+		
+		<div class="modal-body" style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+		  <h3><img src="images/telephone-receiver-material-svgrepo-com.svg" alt="" style="height: 30px; width: auto;">: 081 517 5462</h3>
+		  <h3><img src="images/whatsapp-svgrepo-com.svg" alt="" style="height: 30px; width: auto;">: 081 517 5462</h3>
+		</div>
+		
+	  </div>
+	</div>
+  </div>
+<!-- end of contact info modal -->
 <!--	Wrapper End
 =======================================================-->
 	<!--	Js Links
